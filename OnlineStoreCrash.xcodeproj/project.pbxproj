@@ -24,6 +24,7 @@
 		54418F961F7AD822002FFD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54418F991F7AD822002FFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54418F9B1F7AD822002FFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54431F771F7AE07A007B92B4 /* OnlineStoreCrash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlineStoreCrash-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStoreCrash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash.debug.xcconfig"; sourceTree = "<group>"; };
 		D5EC53EF8AF9C7506ED514E1 /* Pods_OnlineStoreCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineStoreCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +44,7 @@
 		54418F831F7AD822002FFD24 = {
 			isa = PBXGroup;
 			children = (
+				54431F771F7AE07A007B92B4 /* OnlineStoreCrash-Bridging-Header.h */,
 				54418F8E1F7AD822002FFD24 /* OnlineStoreCrash */,
 				54418F8D1F7AD822002FFD24 /* Products */,
 				580F4B31C1B0DA4FDBFBCB47 /* Pods */,
@@ -123,6 +125,7 @@
 				TargetAttributes = {
 					54418F8B1F7AD822002FFD24 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -366,12 +369,15 @@
 			baseConfigurationReference = 5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RNJP3AR6H;
 				INFOPLIST_FILE = OnlineStoreCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.andrena.OnlineStoreCrash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineStoreCrash-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,12 +388,14 @@
 			baseConfigurationReference = 490C0A6B998D81289104D596 /* Pods-OnlineStoreCrash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RNJP3AR6H;
 				INFOPLIST_FILE = OnlineStoreCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.andrena.OnlineStoreCrash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineStoreCrash-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
