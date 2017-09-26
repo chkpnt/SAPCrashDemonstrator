@@ -12,9 +12,11 @@
 		54418F951F7AD822002FFD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54418F931F7AD822002FFD24 /* Main.storyboard */; };
 		54418F971F7AD822002FFD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54418F961F7AD822002FFD24 /* Assets.xcassets */; };
 		54418F9A1F7AD822002FFD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54418F981F7AD822002FFD24 /* LaunchScreen.storyboard */; };
+		83D229395274332F60A908F8 /* Pods_OnlineStoreCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EC53EF8AF9C7506ED514E1 /* Pods_OnlineStoreCrash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490C0A6B998D81289104D596 /* Pods-OnlineStoreCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStoreCrash.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash.release.xcconfig"; sourceTree = "<group>"; };
 		54418F8C1F7AD822002FFD24 /* OnlineStoreCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineStoreCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54418F8F1F7AD822002FFD24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54418F911F7AD822002FFD24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		54418F961F7AD822002FFD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54418F991F7AD822002FFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54418F9B1F7AD822002FFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStoreCrash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EC53EF8AF9C7506ED514E1 /* Pods_OnlineStoreCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineStoreCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D229395274332F60A908F8 /* Pods_OnlineStoreCrash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				54418F8E1F7AD822002FFD24 /* OnlineStoreCrash */,
 				54418F8D1F7AD822002FFD24 /* Products */,
+				580F4B31C1B0DA4FDBFBCB47 /* Pods */,
+				AB45E9B4F8188725DB24394D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = OnlineStoreCrash;
 			sourceTree = "<group>";
 		};
+		580F4B31C1B0DA4FDBFBCB47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */,
+				490C0A6B998D81289104D596 /* Pods-OnlineStoreCrash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB45E9B4F8188725DB24394D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC53EF8AF9C7506ED514E1 /* Pods_OnlineStoreCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54418F9E1F7AD822002FFD24 /* Build configuration list for PBXNativeTarget "OnlineStoreCrash" */;
 			buildPhases = (
+				E07070C450332F17CFBF978E /* [CP] Check Pods Manifest.lock */,
 				54418F881F7AD822002FFD24 /* Sources */,
 				54418F891F7AD822002FFD24 /* Frameworks */,
 				54418F8A1F7AD822002FFD24 /* Resources */,
+				F58A24122F4122D813B791FF /* [CP] Embed Pods Frameworks */,
+				1CF8249F23E200F97BD59DA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF8249F23E200F97BD59DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash-resources.sh",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/HttpConvAuthFlows.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/UserInteractionMultiplexer.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/MAFReuse/iOS/includes/bundles/MAFUIComponents.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/MobilePlace.bundle/Base.lproj/MobilePlace_iPhone.storyboard",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/Cache.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/Logger.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/MAFLogonManagerNG.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/MAFLogonUING.bundle",
+				"${PODS_ROOT}/NativeSDK-Release/ODataFramework/iOS/includes/bundles/MobilePlace.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07070C450332F17CFBF978E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineStoreCrash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58A24122F4122D813B791FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54418F881F7AD822002FFD24 /* Sources */ = {
@@ -272,6 +361,7 @@
 		};
 		54418F9F1F7AD822002FFD24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		54418FA01F7AD822002FFD24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490C0A6B998D81289104D596 /* Pods-OnlineStoreCrash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

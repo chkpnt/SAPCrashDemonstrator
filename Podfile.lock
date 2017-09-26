@@ -1,0 +1,40 @@
+PODS:
+  - NativeSDK-Release/HttpConversationManager (3.15.6)
+  - NativeSDK-Release/MAFLogon (3.15.6):
+    - NativeSDK-Release/HttpConversationManager
+    - NativeSDK-Release/Usage
+  - NativeSDK-Release/ODataAPI (3.15.6)
+  - NativeSDK-Release/ODataOffline (3.15.6):
+    - NativeSDK-Release/HttpConversationManager
+    - NativeSDK-Release/ODataAPI
+    - NativeSDK-Release/Usage
+  - NativeSDK-Release/ODataOnline (3.15.6):
+    - NativeSDK-Release/HttpConversationManager
+    - NativeSDK-Release/ODataAPI
+    - NativeSDK-Release/Usage
+  - NativeSDK-Release/Usage (3.15.6):
+    - NativeSDK-Release/HttpConversationManager
+
+DEPENDENCIES:
+  - NativeSDK-Release/HttpConversationManager (from `/Users/ich/repos/SMP_SDK/.git`, tag `3.15.6`)
+  - NativeSDK-Release/MAFLogon (from `/Users/ich/repos/SMP_SDK/.git`, tag `3.15.6`)
+  - NativeSDK-Release/ODataOffline (from `/Users/ich/repos/SMP_SDK/.git`, tag `3.15.6`)
+  - NativeSDK-Release/ODataOnline (from `/Users/ich/repos/SMP_SDK/.git`, tag `3.15.6`)
+  - NativeSDK-Release/Usage (from `/Users/ich/repos/SMP_SDK/.git`, tag `3.15.6`)
+
+EXTERNAL SOURCES:
+  NativeSDK-Release:
+    :git: /Users/ich/repos/SMP_SDK/.git
+    :tag: 3.15.6
+
+CHECKOUT OPTIONS:
+  NativeSDK-Release:
+    :git: /Users/ich/repos/SMP_SDK/.git
+    :tag: 3.15.6
+
+SPEC CHECKSUMS:
+  NativeSDK-Release: cd40144f4dd88eb00971e05b4c6661b272a35b1c
+
+PODFILE CHECKSUM: df95dcdad3a90fa75437bdc931b55c9e82dd504a
+
+COCOAPODS: 1.3.1
