@@ -5,6 +5,11 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
+//Logger
+#import "SAPSupportabilityFacade.h"
+#import "SAPClientLogger.h"
+#import "SAPClientLogManager.h"
+
 //Conversation Manager
 #import "HttpConversationManager.h"
 #import "CommonAuthenticationConfigurator.h"

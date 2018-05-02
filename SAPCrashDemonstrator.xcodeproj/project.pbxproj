@@ -12,6 +12,7 @@
 		54418F951F7AD822002FFD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54418F931F7AD822002FFD24 /* Main.storyboard */; };
 		54418F971F7AD822002FFD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54418F961F7AD822002FFD24 /* Assets.xcassets */; };
 		54418F9A1F7AD822002FFD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54418F981F7AD822002FFD24 /* LaunchScreen.storyboard */; };
+		54704D682099928400C3B45D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54704D672099928400C3B45D /* Logger.swift */; };
 		BFB557CC6FC69B199DDDAC4B /* Pods_SAPCrashDemonstrator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4F54BA51CF8802BF95AEDE /* Pods_SAPCrashDemonstrator.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		54418F991F7AD822002FFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54418F9B1F7AD822002FFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54431F771F7AE07A007B92B4 /* SAPCrashDemonstrator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAPCrashDemonstrator-Bridging-Header.h"; sourceTree = "<group>"; };
+		54704D672099928400C3B45D /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		5C2493E68BBC92D1CBE0BB4A /* Pods-OnlineStoreCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStoreCrash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStoreCrash/Pods-OnlineStoreCrash.debug.xcconfig"; sourceTree = "<group>"; };
 		6D4F54BA51CF8802BF95AEDE /* Pods_SAPCrashDemonstrator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAPCrashDemonstrator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A7E2C9AD280C286BBE8AF6 /* Pods-SAPCrashDemonstrator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPCrashDemonstrator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPCrashDemonstrator/Pods-SAPCrashDemonstrator.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				54418F8F1F7AD822002FFD24 /* AppDelegate.swift */,
+				54704D672099928400C3B45D /* Logger.swift */,
 				54418F911F7AD822002FFD24 /* ViewController.swift */,
 				54418F931F7AD822002FFD24 /* Main.storyboard */,
 				54418F961F7AD822002FFD24 /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54418F921F7AD822002FFD24 /* ViewController.swift in Sources */,
+				54704D682099928400C3B45D /* Logger.swift in Sources */,
 				54418F901F7AD822002FFD24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
