@@ -5,5 +5,5 @@ target 'SAPCrashDemonstrator' do
   use_frameworks!
 
   pod 'NativeSDK-Release', :subspecs => ['ODataOnline', 'ODataOffline', 'MAFLogon', 'Usage', 'HttpConversationManager'],
-        :git => '/Users/ich/repos/SMP_SDK/.git', :tag => '3.15.6'
+        :git => '/Users/ich/repos/SMP_SDK/.git', :tag => '3.16.10'
 end
