@@ -10,6 +10,10 @@
 #import "SAPClientLogger.h"
 #import "SAPClientLogManager.h"
 
+//MAF Logon
+#import "DataVault.h"
+#import "MAFLogonManagerNGPublicHeaders.h"
+
 //Conversation Manager
 #import "HttpConversationManager.h"
 #import "CommonAuthenticationConfigurator.h"
