@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  OnlineStoreCrash
+//  SAPCrashDemonstrator
 //
 //  Created by Gregor Dschung on 26.09.17.
 //  Copyright © 2017 Gregor Dschung. All rights reserved.
