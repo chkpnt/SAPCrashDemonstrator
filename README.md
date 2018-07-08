@@ -4,6 +4,8 @@ This repository is intended to demonstrate the crash reported to SAP as incident
 
 To compile this project, you have to adapt the `Podfile` appropriately and call `pod update`.
 
+*Update, 29.07.2018: SAP has found the cause for this bug. A fix is expected for SMP SDK 3.0 SP16 PL15.*
+
 # Step-by-step introductions on how to reproduce the issue
 
 1. Setup the project to use an older SDK (I've used SMP SDK 3.0 SP16 PL6).
